@@ -55,6 +55,8 @@ models:
   dbt_artifacts:
     staging:
       +materialized: ephemeral
+      +meta:
+        dbt: rocks
 
 tests:
   rapid_onboarding_exemplar:
